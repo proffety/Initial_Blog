@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>La Profezia</title>
 </head>
 <body>
-    
+    <h1>La Profezia</h1>
+
+    <hr>
+
+    <h2>Índice</h2>
+
+    <ol>
+        <li ><a href="#o-html">O que é o HTML</a></li>
+        <li><a href="#Introducao">Introdução as tags HTML</a></li>
+        <li><a href="#Tags-basicas">Tags básicas de estruturação</a></li>
+    </ol>
+
+    <h2 id="o-html">O que é o HTML</h2>
+    <p>
+        O <abbr title="HyperText Markup Language">HTML</abbr> é uma <strong>linguagem de marcação</strong> criada para ser o "esqueleto" de uma página web criado por Tim Berners-Lee, o conceito de uma página html envolve a estrutura básica com tags, sendo a estrutura básica algo assim:
+        <code>
+            <pre>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang=&quot;en&quot;&gt;
+            &lt;head&gt;
+                &lt;meta charset=&quot;UTF-8&quot;&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                &lt;title&gt;Document&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                
+            &lt;/body&gt;
+                &lt;/html&gt;
+            </pre>
+        </code>
+    </p>
+
+    <h2 id="Introducao">Introdução as tags HTML</h2>
+    <p>As tags html são divididas em 2 tipos e tem a seguinte estrutura: elas começam com o sinal de menor que &lt;, em seguida temos o nome da tag como a tag p, após a tag deve ser finalizada com o sinal &gt; formando algo como &lt;p&gt;, os tipos de tags HTML são as que fecham em si, e as que fecham em tags, exemplo de uma que fecha em tag é a propria tag p, para fechar uma tag se faz &lt;/p&gt; o sinal de / diz que uma tag fechou e tudo entre a abertura é considerado conteudo <br>
+        exemplo: &lt;p&gt; aqui é o conteudo &lt;/p&gt; <br>
+        o outro tipo de tag são as tags que fecham nela mesma, isto é a tag não tem conteudo, pois ela é o proprio conteudo exemplo &lt;img src = " " /&gt; a tag img abre e fecha sozinha, ela não tem uma dupla, <strong>pois ela é o proprio conteudo</strong>, ela é a imagem em si, e não precisa de um conteudo que seja a imagem (pois ela ja é)
+    </p>
+
+    <h2 id="Tags-basicas">Tags básicas de estruturação</h2>
+    <p>as tags básicas para a estruturação de um site são as tags h que vai do 1 ao 6 e são tags de titulos, p que são tags de paragragos, e img que são para imagens <br>
+        a tag h tem uma particularidade: ela tem uma numeração que varia &lt;h1&gt; até &lt;h6&gt;, onde a numeração indica a hierarquia do conteudo sendo h1 a hierarquia maxima (titulo principal ou principais) e h6 a hierarquia minima (titulo menos relevante) <br>
+        ps - não se deve pensar como erroneamente é pensado sobre as tag's h, que é pensar como eles tendo funções de aumentar ou diminuir titulos, a estilização é responsabilidade das css, as tags h tem função de hierarquia semantica
+    </p>
 </body>
 </html>
